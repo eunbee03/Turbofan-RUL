@@ -18,7 +18,7 @@ st.markdown("예측 모델의 전반적인 성능을 요약하고, 오차 분포
 # 📁 데이터 로딩
 @st.cache_data
 def load_rul_data():
-    path = "rul_dashboard/data/rul_fd001_xgb_result.csv"  # ← 경로 확인 필요
+    path = "data/rul_fd001_xgb_result.csv"  # ← 경로 확인 필요
     return pd.read_csv(path)
 
 df = load_rul_data()

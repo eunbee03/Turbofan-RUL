@@ -5,8 +5,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
 # 1. 파일 경로
-input_path = "rul_dashboard/data/train_FD001.txt"
-output_path = "rul_dashboard/data/rul_fd001_pca_filtered.csv"
+input_path = "data/train_FD001.txt"
+output_path = "data/rul_fd001_pca_filtered.csv"
 
 # 2. 컬럼 이름 지정 (C-MAPSS FD001 기준: 3 + 21 = 24 열)
 column_names = ['unit', 'cycle'] + [f'op_setting_{i}' for i in range(1, 4)] + [f's{i}' for i in range(1, 22)]
