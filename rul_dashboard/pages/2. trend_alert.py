@@ -15,7 +15,7 @@ st.markdown("예측 RUL을 매우 빠르게 반복 출력하며 경고 여부를
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("rul_dashboard/rul_fd001_xgb_result.csv")
+    return pd.read_csv("rul_dashboard/data/rul_fd001_xgb_result.csv")
 
 df = load_data()
 

@@ -15,7 +15,7 @@ st.markdown("각 엔진별로 실제 RUL과 예측 RUL (XGBoost)을 비교합니
 # 📁 데이터 불러오기
 @st.cache_data
 def load_data():
-    path = "rul_dashboard/rul_fd001_xgb_result.csv"
+    path = "rul_dashboard/data/rul_fd001_xgb_result.csv"
     return pd.read_csv(path)
 
 df = load_data()

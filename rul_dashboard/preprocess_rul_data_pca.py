@@ -5,7 +5,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 # 📌 경로 설정
-input_path = "rul_result_real.csv"
+input_path = "rul_dashboard/data/rul_result_real.csv"
 output_path = "C:/Users/yimta/OneDrive/바탕 화면/Streamlit_prac/rul_dashboard/rul_result_pca_filtered.csv"
 
 # 1. 데이터 불러오기

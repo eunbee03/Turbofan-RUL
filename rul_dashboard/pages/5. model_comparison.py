@@ -16,7 +16,7 @@ st.markdown("여러 예측 모델의 RUL 결과를 비교하여 가장 정확한
 # 📁 데이터 로딩
 @st.cache_data
 def load_data():
-    path = "rul_result_multi_model.csv"
+    path = "rul_dashboard/data/rul_result_multi_model.csv"
     return pd.read_csv(path)
 
 df = load_data()

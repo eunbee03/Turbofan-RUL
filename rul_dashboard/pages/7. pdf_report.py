@@ -21,7 +21,7 @@ st.title("📝 예측 리포트 PDF 자동 생성기")
 # 데이터 로드
 @st.cache_data
 def load_data():
-    path = "rul_result_multi_model.csv"
+    path = "rul_dashboard/data/rul_result_multi_model.csv"
     return pd.read_csv(path)
 
 df = load_data()

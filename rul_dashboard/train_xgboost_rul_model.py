@@ -7,8 +7,8 @@ from xgboost import XGBRegressor
 import numpy as np
 
 # 📁 파일 경로
-input_path = "rul_dashboard/rul_fd001_pca_filtered.csv"
-output_path = "rul_dashboard/rul_fd001_xgb_result.csv"
+input_path = "rul_dashboard/data/rul_fd001_pca_filtered.csv"
+output_path = "rul_dashboard/data/rul_fd001_xgb_result.csv"
 
 # 1. 데이터 불러오기
 df = pd.read_csv(input_path)
