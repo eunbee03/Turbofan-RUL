@@ -43,7 +43,7 @@ st.title("📊 PCA 기반 센서 중요도 분석")
 st.markdown("##### 변동 없는 센서를 제거한 뒤, PCA로 중요 센서를 자동 추출합니다.")
 
 # --- 데이터 로드 ---
-file_path = "rul_dashboard/data/train_FD001.txt"
+file_path = "data/train_FD001.txt"
 df = load_sensor_data(file_path)
 sensor_cols_all = [col for col in df.columns if 'sensor' in col]
 
